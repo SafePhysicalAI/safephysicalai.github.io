@@ -1,0 +1,29 @@
+# Workshop Configuration
+title: "Safe Embodied AI"
+subtitle: "IJCAI/ECAI 2026 Workshop"
+description: "Full-Day Workshop on Safe Embodied AI at IJCAI/ECAI 2026 in Bremen, Germany"
+baseurl: ""
+url: "https://safeembodiedai.github.io"
+
+# Conference Details
+conference: "IJCAI/ECAI 2026"
+location: "Bremen, Germany"
+date: "TBD"
+
+# Contact
+email: benjamin.alt@uni-bremen.de
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
