@@ -175,14 +175,20 @@ body {
   font-weight: 400;
 }
 
-.hero .location {
-  font-size: 1.25rem;
+.hero .date {
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
-.hero .date {
+.hero .location {
   font-size: 1.1rem;
   opacity: 0.9;
+}
+
+.hero .location a {
+  color: var(--white);
+  text-decoration: underline;
 }
 
 /* Sections */
